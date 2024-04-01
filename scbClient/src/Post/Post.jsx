@@ -5,10 +5,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import "./Post.css"
 import ClipLoader from "react-spinners/ClipLoader";
 
-function removeHtmlTags(htmlString) {
-  return htmlString.replace(/<[^>]*>/g, '');
-}
-
 function Post() {
   const navigate = useNavigate();
   const [isVerified, setIsVerified] = useState(null);
