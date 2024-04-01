@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "admin",
+    "database": "scbx",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 54320
+  },
+  "test": {
+    "username": "admin",
+    "password": "admin",
+    "database": "scbx",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 54320
+  },
+  "production": {
+    "username": "admin",
+    "password": "admin",
+    "database": "scbx",
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": 54320
+  }
+}
